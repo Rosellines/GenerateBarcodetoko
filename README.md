@@ -17,8 +17,12 @@ then, run it.
 1. Run generate label.py if u want to create single barcode
 2. Run generate by excel if u want to bulk barcode
 ```
+
+for single generate
+```
 python3 generate_label.py
 ```
+for bulk generate
 ```
 python3 generate_by_excel.py
 ```
