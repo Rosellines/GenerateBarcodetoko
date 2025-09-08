@@ -5,15 +5,13 @@ git clone https://github.com/Rosellines/GenerateBarcodetoko
 cd GenerateBarcodetoko
 ```
 ```
-python -m pip install pillow python-barcode
-python.exe -m pip install pillow python-barcode
-python.exe -m pip install pandas openpyxl
-pip install pandas
+python3 -m venv barcode
+source barcode/bin/activate
+```
+```
+pip install pandas openpyxl pillow python-barcode
 ```
 then, make environment
-```
-python -m venv barcode
-source barcode/bin/activate
 ```
 then, run it.
 1. Run generate label.py if u want to create single barcode
